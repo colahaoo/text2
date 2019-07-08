@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+.margin{width:1192px;margin:0 auto;}
+
+header{height:120px;}
+header img{margin-top:21px;}
+header p{float:right;font:12px/120px "";color:#959595;}
+
+main{height:600px;background:#fcf3ee;}
+main #a{display:flex;}
+main #a img{float:left;width:792px;height:408px;padding-top:98px;padding-bottom:25px;}
+main #a .login{width:400px;height:408px;background:#fff;border:1px solid #eee;margin-top:98px;border-left:none;font:16px/60px "";color:#333;}
+main #a .login p{text-align:center;width:400px;height:60px;background:#333;font:20px/60px "";color:#fff;}
+main #a .login #user{border:1px solid #444;width:250px;height:30px;margin-top:20px;margin-bottom:10px;border-radius:5px;margin-left:20px;color:#666;}
+main #a .login #pass{border:1px solid #444;width:250px;height:30px;margin-left:34px;color:#666;margin-bottom:10px;border-radius:5px;}
+main #a .login #yz{border:1px solid #444;width:100px;height:30px;margin-left:20px;color:#666;margin-bottom:10px;border-radius:5px;}
+main #a .login #btn{cursor:pointer;width:290px;height:40px;background:#1a9733;font:16px/40px "";color:#fff;margin-left:60px;border:none;border-radius:5px;}
+main #a .login a{font:10px/30px "";color:#1a9733;text-align:center;}
+
+footer{}
+footer .b1{display:flex;border-bottom:1px solid #eee;border-top:1px solid #eee;height:98px;}
+footer .b1 h2{font:17px/29px "";color:#444;margin-left:57px;}
+footer .b1 span{font:12px/28px "";color:#999;margin-left:40px;}
+footer .b1 .b11{flex:1;margin:auto 0;}
+footer .b1 .b12{flex:1;margin:auto 0;}
+footer .b1 .b13{flex:1;margin:auto 0;}
+footer .b1 .b14{flex:1;margin:auto 0;}
+footer .b1 img{float:left;margin:auto 0;}
+footer .b2{display:flex;height:274px;border-bottom:1px solid #eee;}
+footer .b2 dl{margin-top:24px;margin-right:105px;}
+footer .b2 dl dt{font:15px/29px "";color:#1a9733;}
+footer .b2 dl dd{font:12px/2 "";color:#666;}
+footer .b3{height:107px;margin-top:21px;}
+footer .b3 span{font:12px/26px "";color:#666;margin-right:18px;}
+footer .b4{height:196px;}
+footer .b4 .cont{text-align:center;}
+footer .b4 .cont h2{font:12px/2 "";color:#666;}
+footer .b4 .i{text-align:center;margin-top:24px;}
