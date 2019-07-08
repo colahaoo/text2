@@ -1,3 +1,4 @@
+
 if(window.localStorage.userArr){
     var array = JSON.parse(window.localStorage.userArr);
 }else{
@@ -8,9 +9,9 @@ var obtn=document.getElementById("btn");
 var ouser=document.getElementById("user");
 var opass=document.getElementById("pass");
 
-var str1=localStorage.getItem("password"); 
-var str2=localStorage.getItem("username"); 
-console.log(str1)
+// var str1=localStorage.getItem("password"); 
+// var str2=localStorage.getItem("username"); 
+// console.log(str1)
 
 
 obtn.onclick=function(){

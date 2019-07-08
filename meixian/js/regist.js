@@ -63,3 +63,5 @@ obtn.onclick=function(){
             window.localStorage.userArr=JSON.stringify(array);
             alert("注册成功");
     }
+
+   
