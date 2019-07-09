@@ -15,6 +15,7 @@ otel.onblur = function(){
     }
 }
 
+
 oyz.onblur = function(){
     var reg = /^\d{4}$/;
     if(reg.test(this.value)){
@@ -47,10 +48,16 @@ oqpass.onblur = function(){
     }
 }
 
+
+if(window.localStorage.userArr){
+    var array = JSON.parse(window.localStorage.userArr);    
+}else{        
+    array = [];
+}
+
 obtn.onclick=function(){
     var username=otel.value;
     var password=opass.value;
-    var array=[];
     for(var i=0;i<array.length;i++){
         if(username==array[i].username){
             alert("该手机号已注册");
