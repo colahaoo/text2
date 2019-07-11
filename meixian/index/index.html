@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-    <header>
+    <header class="floor">
         <div id="top">
             <a href=""><img src="../img/1.jpg"/></a>
         </div>
@@ -18,8 +18,8 @@
             <div class="margin">
                 <ul class="left">
                     <li><a href="">欢迎光临美鲜冻品商城</a></li>
-                    <li><a href="../login/login.html" target="_blank"/>登录</a</li>
-                    <li><a href="../regist/regist.html" target="_blank"/>注册</a</li>
+                    <li><a href="../login/login.html" target="_blank">登录</a</li>
+                    <li><a href="../regist/regist.html" target="_blank">注册</a</li>
                 </ul>
                 <ul class="right">
                     <li><a href="" class="mei">我的美鲜</a>
@@ -31,7 +31,7 @@
                             <li>我的订单</li>
                         </ul>
                     </li>
-                    <li><a href="">我的购物车</a></li>
+                    <li><a href="../car/car.html">我的购物车</a></li>
                     <li><a href="">积分商城</a></li>
                     <li><a href="">手机逛美鲜</a></li>
                     <li><a href="">网站地图</a></li>
@@ -66,14 +66,12 @@
     </nav>
     <div id="xleft">
         <ul>
-            <li class="li1 li">F1</li>
-            <li class="li2 li">F2</li>
-            <li class="li3 li">F3</li>
-            <li class="li4 li">F4</li>
-            <li class="li5 li">TOP↑</li>
+            <li class="li1 li">TOP↑</li>
+            <li class="li2 li">F1</li>
+            <li class="li3 li">F2</li>
+            <li class="li4 li">F3</li>
         </ul>
     </div>
-    <div id="xright"></div>
     <div id="banner" class="margin">
         <div class="cd">
             <ul>
@@ -445,7 +443,7 @@
                 </div>
             </div>
         </div>
-        <div class="special">
+        <div class="special floor">
             <img src="../img/icon.jpg"/>
             <span class="s1">美鲜预售</span>
             <span class="s2">预售更省</span>
@@ -459,6 +457,20 @@
                 </ul>
             </div>
             <div class="img">
+                <div class="img1">
+                    <img src="../img/18.jpg" class="i1"/>
+                    <img src="../img/19.jpg" class="i2"/>
+                    <img src="../img/19.jpg" class="i2"/>
+                    <img src="../img/19.jpg" class="i2"/>
+                </div>
+                <div class="img2">
+                    <img src="../img/20.jpg" class="i2"/>
+                    <img src="../img/21.jpg" class="i2"/>
+                    <img src="../img/22.jpg" class="i2"/>
+                    <img src="../img/23.jpg" class="i1"/>
+                </div>
+            </div>
+            <div class="imgj">
                 <div class="img1">
                     <img src="../img/18.jpg" class="i1"/>
                     <img src="../img/19.jpg" class="i2"/>
@@ -475,7 +487,7 @@
         </div>
     </div>
     <div id="floor" class="margin">
-        <div class="special1">
+        <div class="special1 floor">
             <img src="../img/icon.jpg"/>
             <span class="s1">美鲜预售</span>
             <span class="s2">预售更省</span>
@@ -503,7 +515,7 @@
                 </div>
             </div>
         </div>
-        <div class="special2">
+        <div class="special2 floor">
             <img src="../img/icon.jpg"/>
             <span class="s1">美鲜预售</span>
             <span class="s2">预售更省</span>
@@ -678,6 +690,24 @@
         
     
 
-    
+    $("#xleft").find("li").click(function(){
+			var index = $(this).index();
+			var iNowFloor = $(".floor").eq(index);
+			var t = iNowFloor.offset().top;
+			$("html").stop().animate({
+				scrollTop:t
+			})
+        })
+        
+    $().ready(function(){
+        $("#area .special .box ul li").click(function(){
+            //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
+            var _index = $(this).index();
+            //让内容框的第 _index 个显示出来，其他的被隐藏
+            $("#area .special .imgj>img").eq(_index).show().siblings().hide();
+            //改变选中时候的选项框的样式，移除其他几个选项的样式
+            $(this).addClass("change").siblings().removeClass("change");
+        });
+    })
 </script>
 </html>

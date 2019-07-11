@@ -49,7 +49,7 @@
 					borderLeft:"solid 1px #ccc",
 					borderRight:"solid 1px #ccc"
 				}).eq(this.index).css({	
-					background:"red"
+					background:"gray"
 				})
 				
 				this.listEvent();
@@ -66,7 +66,7 @@
 					that.list.children("span").css({
 						background:""
 					}).eq($(this).index()).css({
-						background:"red"
+						background:"gray"
 					})
 					
 					that.index = $(this).index();
@@ -132,7 +132,7 @@
 				this.list.children("span").css({
 					background:""
 				}).eq(this.index).css({
-					background:"red"
+					background:"gray"
 				})
 			}
 			play(){
