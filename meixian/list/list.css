@@ -2,7 +2,7 @@
 /* CSS Document */
 
 *{margin:0;padding:0;}
-.margin{width:1199px;margin:0 auto;}
+.margin{width:1200px;margin:0 auto;}
 html,body{width:1423px;}
 
 .o{width:500px;margin-top:20px;}
@@ -34,12 +34,12 @@ nav #top #search span{font:12px/18px "";color:#999;}
 
 
 #banner{height:731px;position:relative;}
-#banner .cd{display:none;position:absolute;width:239px;height:489px;background:#000;font:14px/38px "";color:#fff;text-indent:27px;}
+#banner .cd{display:block;position:absolute;width:239px;height:489px;background:#000;font:14px/38px "";color:#fff;text-indent:27px;}
 #banner #bottom .all:hover + .cd ul{display:block;}
 /* #banner .cd ul li dl{display:none;} */
 #banner .cd ul li:hover{background:#1a9733;cursor:pointer;}
 #banner .cd ul li:hover dl{display:block;}
-#banner .cd ul li dl{position:absolute;left:239px;z-index:1;background:#fff;width:552px;height:489px;top:0;}
+#banner .cd ul li dl{position:absolute;left:239px;z-index:1;background:#fff;width:552px;height:489px;top:0;display:none;}
 #banner .cd dl .a{position:absolute;top:30px;}
 #banner .cd dl .b{position:absolute;left:130px;top:30px;}
 #banner .cd dl .c{position:absolute;top:160px;}
@@ -56,8 +56,30 @@ nav #top #search span{font:12px/18px "";color:#999;}
 #banner .bottom{width:1200px;height:240px;margin:20px 0;}
 
 .shop #cont{width:100%;border: solid 2px #1a9733;margin: 30px auto;overflow: hidden;}
-#cont .box{width: 250px;float: left;border: solid 1px black;box-sizing: border-box;text-align: center;}
-.box img{width: 60%;}
-#cont p{font:20px/200px "";color:rgb(51, 51, 51);height: 200px;overflow: hidden;margin: 10px 0;text-align:center;}
-.box span{}
-.box em{width: 100px;height: 30px;line-height: 30px;text-align: center;margin: 10px auto;display: block;font-style: normal;background: dodgerblue;color: #FFF;}
+#cont .box{margin:4px 10px;width:280px;height:350px;float: left;border: solid 1px #eee;box-sizing: border-box;}
+.box img{width:200px;height:200px;}
+#cont p{font:16px/30px "";color:#1d7c30;height: 200px;overflow: hidden;height:30px;}
+.box span{font:30px/50px "";color:#cf2f1a;margin-top:10px;}
+.box del{text-decoration:line-through;font:16px/16px "";}
+.box em{cursor:pointer;width: 100px;height: 30px;line-height: 30px;text-align: center;margin:10px auto;display: block;font-style: normal;background: rgb(122, 133, 145);color: #FFF;}
+
+
+footer{}
+footer .b1{display:flex;border-bottom:1px solid #eee;border-top:1px solid #eee;height:98px;}
+footer .b1 h2{font:17px/29px "";color:#444;margin-left:57px;}
+footer .b1 span{font:12px/28px "";color:#999;margin-left:40px;}
+footer .b1 .b11{flex:1;margin:auto 0;}
+footer .b1 .b12{flex:1;margin:auto 0;}
+footer .b1 .b13{flex:1;margin:auto 0;}
+footer .b1 .b14{flex:1;margin:auto 0;}
+footer .b1 img{float:left;margin:auto 0;}
+footer .b2{display:flex;height:274px;border-bottom:1px solid #eee;}
+footer .b2 dl{margin-top:24px;margin-right:105px;}
+footer .b2 dl dt{font:15px/29px "";color:#1a9733;}
+footer .b2 dl dd{font:12px/2 "";color:#666;}
+footer .b3{height:107px;margin-top:21px;}
+footer .b3 span{font:12px/26px "";color:#666;margin-right:18px;}
+footer .b4{height:196px;}
+footer .b4 .cont{text-align:center;}
+footer .b4 .cont h2{font:12px/2 "";color:#666;}
+footer .b4 .i{text-align:center;margin-top:24px;}

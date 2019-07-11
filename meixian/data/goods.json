@@ -1,51 +1,73 @@
 [{
     "src":"http://www.emeixian.com/images/201601/thumb_img/837_thumb_G_1452192688915.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥1599.00",
+    "p":"1888.00",
+    "price":"1599.00",
     "goodsId":"asdmgsaj213"
 },{
     "src":"http://www.emeixian.com/images/201601/goods_img/845_G_1452546563331.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥1499.00",
+    "p":"2000.00",
+    "price":"1499.00",
     "goodsId":"dfgdsgf"
 },{
     "src":"http://www.emeixian.com/images/201512/goods_img/1099_G_1450811294864.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥899.00",
+    "p":"1000.00",
+    "price":"899.00",
     "goodsId":"123123"
 },{
     "src":"http://www.emeixian.com/data/afficheimg/1559757337043694608.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥1299.00",
+    "p":"1888.00",
+    "price":"1299.00",
     "goodsId":"454646"
 },{
     "src":"http://www.emeixian.com/data/afficheimg/1561937821479396493.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥1599.00",
+    "p":"1888.00",
+    "price":"1599.00",
     "goodsId":"safsad"
 },{
-    "src":"http://www.emeixian.com/data/afficheimg/1552338192224940513.jpg",
+    "src":"http://www.emeixian.com/images/201512/goods_img/1099_G_1450811294864.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥999.00",
+    "p":"9999.00",
+    "price":"999.00",
     "goodsId":"asdsad"
 },{
     "src":"http://www.emeixian.com/data/afficheimg/1552338176265364141.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥999.00",
+    "p":"1888.00",
+    "price":"999.00",
     "goodsId":"asdsad"
 },{
     "src":"http://www.emeixian.com/data/afficheimg/1550428430162598192.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥999.00",
+    "p":"1888.00",
+    "price":"999.00",
     "goodsId":"asdsad"
 },{
     "src":"http://www.emeixian.com/data/afficheimg/1561939261954179272.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥999.00",
+    "p":"1888.00",
+    "price":"999.00",
     "goodsId":"asdsad"
 },{
     "src":"http://www.emeixian.com/data/afficheimg/1561938262840030672.jpg",
     "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
-    "price":"￥999.00",
+    "p":"1888.00",
+    "price":"999.00",
     "goodsId":"asdsad"
+},{
+    "src":"http://www.emeixian.com/data/afficheimg/1559757337043694608.jpg",
+    "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
+    "p":"1888.00",
+    "price":"1299.00",
+    "goodsId":"454646"
+},{
+    "src":"http://www.emeixian.com/data/afficheimg/1561937821479396493.jpg",
+    "name":"大师 辣味薯角 袋装 2.5kg/袋 4袋/箱",
+    "p":"1888.00",
+    "price":"1599.00",
+    "goodsId":"safsad"
 }]

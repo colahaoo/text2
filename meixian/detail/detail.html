@@ -4,29 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>登录页面</title>
+    <title>商品详情页</title>
     <link rel="stylesheet" href="../css/public.css"/>
-    <link rel="stylesheet" href="login.css"/>
+    <link rel="stylesheet" href="detail.css"/>
 </head>
 <body>
-    <header class="margin">
-        <img src="../img/logo.jpg"/>
-        <p>欢迎来到美鲜商城！</p>
-    </header>
-    <main>
-        <div class="margin" id="a">
-            <img src="../img/b5.jpg"/>
-            <div class="login">
-                <p>登录</p>
-                &nbsp;&nbsp;手机号：<input type="text" id="user" value="请输入手机号"/><br/>
-                &nbsp;&nbsp;密码：<input type="text" id="pass" value="请输入密码"/><br/>
-                <!-- &nbsp;&nbsp;验证码：<input type="text" id="yz" value="请输入验证码"/><br/> -->
-                <input type="button" id="btn" value="登录"/><br/>
-                <a href="../regist/regist.html" target="_blank"><h2>没有账号，去注册 ></h2></a>
-            </div>
-        </div>
-    </main>
-    <footer class="margin">
+        <header class="floor">
+                <div id="bottom">
+                    <div class="margin">
+                        <ul class="left">
+                            <li><a href="">欢迎光临美鲜冻品商城</a></li>
+                            <li><a href="../login/login.html" target="_blank">登录</a</li>
+                            <li><a href="../regist/regist.html" target="_blank">注册</a</li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="" class="mei">我的美鲜</a>
+                                <ul class="my">
+                                    <li>我的订单</li>
+                                    <li>我的订单</li>
+                                    <li>我的订单</li>
+                                    <li>我的订单</li>
+                                    <li>我的订单</li>
+                                </ul>
+                            </li>
+                            <li><a href="../car/car.html">我的购物车</a></li>
+                            <li><a href="">积分商城</a></li>
+                            <li><a href="">手机逛美鲜</a></li>
+                            <li><a href="">网站地图</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <nav class="margin">
+                <div id="top">
+                    <a href=""><img src="../img/logo.jpg"/></a>
+                    <p class="top">
+                        <input type="text" id="txt"/><input type="button" id="btn" value="搜索"/>
+                    </p>
+                    <div id="search">
+                        <span>热门搜索：</span>
+                        <span>玉米粒</span>
+                        <span>薯条</span>
+                        <span>薯饼</span>
+                        <span>面包</span>
+                    </div>
+                </div>
+            </nav>
+
+            
+<footer class="margin">
         <div class="b1">
             <div class="b11">
                 <img src="../img/f1.jpg"/>
@@ -145,5 +171,4 @@
         </div>
     </footer>
 </body>
-<script src="../js/login.js"></script>
 </html>
