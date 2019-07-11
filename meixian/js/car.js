@@ -60,10 +60,10 @@
 
                         str += `<tr index="${this.res[i].goodsId}">
                                     <td><img src="${this.res[i].src}" alt=""></td>
-                                    <td>${this.res[i].price}</td>
+                                    <td>￥${this.res[i].price}</td>
                                     <td><input type="number" value="${this.goods[j].num}" min=1 class="changeNum"></td>
                                     <td>￥${c}</td>
-                                    <td class="del"><input type="button" id="btn" value="删除"/></td>
+                                    <td class="del"><input type="button" class="btn" value="删除"/></td>
                                 </tr>`
                     }
                 }

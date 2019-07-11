@@ -1,4 +1,3 @@
-
     class GoodsList{
         constructor(){
             this.cont = document.getElementById("cont");
@@ -58,7 +57,9 @@
             var str = "";
             for(var i=0;i<this.res.length;i++){
                 str += `<div class="box" index="${this.res[i].goodsId}">
+                            <a href="../detail/${this.res[i].d}.html" target="_blank">
                             <img src="${this.res[i].src}" alt="">
+                            </a>
                             <span>￥${this.res[i].price}</span><del>${this.res[i].p}</del>
                             <p>${this.res[i].name}</p>
                             <em class="addCar">加入购物车</em>

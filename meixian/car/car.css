@@ -8,16 +8,17 @@ header{height:120px;}
 header img{margin-top:21px;}
 header p{float:right;font:12px/120px "";color:#959595;}
 
-#bk{background:#e4f8fa;}
-#bk table{border:1px solid #eee;}
+#bk{background:#fff;}
+#bk table{border:1px solid #1a9733;width:600px;}
 #bk table tr{border:1px solid #eee;font:16px/30px "";color:#333;}
 #bk table th{border:1px solid #eee;}
+#bk table td{border:1px solid #eee;}
 #bk table th{border-bottom:2px solid #1a9733;}
 main{}
 main img{width:150px;height:150px;}
 main table th{font:20px/40px "";color:#333;}
 main .del{width:60px;text-align:center;}
-main #btn{width:50px;height:30px;border:none;background:rgb(85, 216, 205);border-radius:5px;color:#fff;}
+main .btn{width:50px;height:30px;border:none;background:rgb(85, 216, 205);border-radius:5px;color:#fff;}
 
 footer{}
 footer .b1{display:flex;border-bottom:1px solid #eee;border-top:1px solid #eee;height:98px;}

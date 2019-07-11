@@ -11,7 +11,7 @@
 				this.isList = options.isList===false ? false : true;
 				this.autoPlay = options.autoPlay===false ? false : true;
 				this.delayTime = options.delayTime || 2000;
-				this.moveTime = options.moveTime || 200;
+				this.moveTime = options.moveTime || 2000;
 				this.index = options.index || 0;
 				
 				this.iPrev = this.img.length-1;

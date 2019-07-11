@@ -3,7 +3,8 @@ if(window.localStorage.userArr){
 }else{
     array = [];
 }
-console.log(array[0].username)
+console.log(array)
+
 var obtn=document.getElementById("btn");
 var ouser=document.getElementById("user");
 var opass=document.getElementById("pass");

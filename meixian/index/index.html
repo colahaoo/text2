@@ -19,7 +19,7 @@
                 <ul class="left">
                     <li><a href="">欢迎光临美鲜冻品商城</a></li>
                     <li><a href="../login/login.html" target="_blank">登录</a</li>
-                    <li><a href="../regist/regist.html" target="_blank">注册</a</li>
+                    <li><a href="../login/regist.html" target="_blank">注册</a</li>
                 </ul>
                 <ul class="right">
                     <li><a href="" class="mei">我的美鲜</a>
@@ -31,7 +31,7 @@
                             <li>我的订单</li>
                         </ul>
                     </li>
-                    <li><a href="../car/car.html">我的购物车</a></li>
+                    <li><a href="../car/car.html" target="_blank">我的购物车</a></li>
                     <li><a href="">积分商城</a></li>
                     <li><a href="">手机逛美鲜</a></li>
                     <li><a href="">网站地图</a></li>
@@ -47,6 +47,9 @@
             </p>
             <div id="search">
                 <span>热门搜索：</span>
+                <span>薯饼</span>
+                <span>紫薯球</span>
+                <span>蛋糕坯</span>
             </div>
         </div>
         <div id="bottom">
@@ -390,7 +393,7 @@
                 <img src="../img/icon.jpg"/>
                 <span class="s1">美鲜预售</span>
                 <span class="s2">预售更省</span>
-                <a href=""><span>进入专区 ></span></a>
+                <a href="../list/list.html"  target="_blank"><span>进入专区 ></span></a>
                 <div class="img">
                     <div class="img1">
                         <img src="../img/9.jpg"/>
@@ -447,7 +450,7 @@
             <img src="../img/icon.jpg"/>
             <span class="s1">美鲜预售</span>
             <span class="s2">预售更省</span>
-            <a href=""><span>进入专区 ></span></a>
+            <a href="../list/list.html" target="_blank"><span>进入专区 ></span></a>
             <div class="box">
                 <ul>
                     <li class="t">特惠推荐</li>
@@ -701,11 +704,8 @@
         
     $().ready(function(){
         $("#area .special .box ul li").click(function(){
-            //通过 .index()方法获取元素下标，从0开始，赋值给某个变量
             var _index = $(this).index();
-            //让内容框的第 _index 个显示出来，其他的被隐藏
             $("#area .special .imgj>img").eq(_index).show().siblings().hide();
-            //改变选中时候的选项框的样式，移除其他几个选项的样式
             $(this).addClass("change").siblings().removeClass("change");
         });
     })
